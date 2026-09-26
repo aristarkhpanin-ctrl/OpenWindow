@@ -13,8 +13,9 @@
 #define PIN_MOTOR_IN1      2    // DRV8871 IN1  (ШИМ)
 #define PIN_MOTOR_IN2      3    // DRV8871 IN2  (ШИМ)
 
-#define PIN_LIMIT_CLOSED  10    // концевик «окно закрыто»   (в GND, INPUT_PULLUP)
-#define PIN_LIMIT_OPEN    11    // концевик «окно открыто»   (в GND, INPUT_PULLUP)
+// Все пины ниже выведены и на DevKitC-1, и на SuperMini
+#define PIN_LIMIT_CLOSED  18    // концевик «окно закрыто»   (в GND, INPUT_PULLUP)
+#define PIN_LIMIT_OPEN    19    // концевик «окно открыто»   (в GND, INPUT_PULLUP)
 
 #define PIN_I2C_SDA        6    // INA219 (датчик тока) и опциональный SHT4x
 #define PIN_I2C_SCL        7
